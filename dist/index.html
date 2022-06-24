@@ -17,22 +17,16 @@
       <section class="container">
         <form id="submitForm">
           <div class="form-group">
-            <label for="makeInput">Make:</label>
-            <input type="text" id="makeInput" class="form-control" />
+            <label for="locationInput">Location:</label>
+            <input type="text" id="locationInput" class="form-control" required />
           </div>
           <div class="form-group">
-            <label for="modelInput">Model:</label>
-            <input type="text" id="modelInput" class="form-control" />
+            <label for="topThingInput">Top Thing to See/Do:</label>
+            <input type="text" id="topThingInput" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="yearInput">Year:</label>
-            <input
-              type="number"
-              max="2021"
-              min="1900"
-              id="yearInput"
-              class="form-control"
-            />
+            <label for="estCostInput">Estimated Cost:</label>
+            <input type="number" id="estCostInput" class="form-control" />
           </div>
           <div class="form-group">
             <button id="submitBtn" class="btn btn-primary">Add</button>
@@ -42,17 +36,17 @@
       <hr />
       <section class="container">
         <div class="row">
-          <div id="wishListContainer" class="col-md-6">
-            <h3 id="wishlist-title">Wish List</h3>
+          <div id="bucketListContainer" class="col-md-6">
+            <h3 id="bucketList-title">Bucket List</h3>
             <ul></ul>
           </div>
           <div class="col-md-6">
             <div class="card">
-              <div id="car-card" class="card-body">
-                <h3 id="carDisplay">Vehicle</h3>
-                <p id="car-make"></p>
-                <p id="car-model"></p>
-                <p id="car-year"></p>
+              <div id="locations-card" class="card-body">
+                <h3 id="locationDisplay">Locations</h3>
+                <p id="location"></p>
+                <p id="topThing"></p>
+                <p id="estCost"></p>
                 <button class="btn btn-warning removeBtn" disabled>Remove</button>
               </div>
             </div>
