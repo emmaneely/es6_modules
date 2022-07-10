@@ -1,8 +1,8 @@
 {
   "name": "es6_modules",
   "version": "1.0.0",
-  "description": "es6 modules",
-  "main": "index.js",
+  "description": "es6 modules exercise",
+  "main": "src/index.js",
   "scripts": {
     "test": "this is a test",
     "build": "webpack"
